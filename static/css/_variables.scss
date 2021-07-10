@@ -1,0 +1,16 @@
+$TealGreenColor: rgb(99, 175, 143);
+$HoverBlue: rgb(0, 132, 255);
+$Whitesmoke: whitesmoke;
+$Transparency: rgba(0, 0, 0, 0.300);
+$Darken: rgba(0, 0, 0, 0.7);
+$NavMenuGrey: rgb(224, 224, 224);
+$WholeScreenPercentage: 100%;
+$backgroundImage: url('/static/images/Homepage Background.jpg') no-repeat center center fixed;
+$mobileImage: url('/static/images/Mobile background.jpg');
+
+@font-face {
+    font-family: "Graphik";
+    font-weight: normal;
+    font-size: 100%;
+    src: url("/static/fonts/Graphik Font/Graphik-Light.otf") format("opentype");
+}

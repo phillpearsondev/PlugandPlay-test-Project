@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plug and Play</title>
+    <!----- CSS for Fontawesome library ----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+        integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA==" crossorigin="anonymous" type="text/css">
+    <!----- Bootstrap CSS ----->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!----- Custom CSS styles ----->
+    <link rel="stylesheet" type="text/css" href="/build/static/css/styles.css">
+</head>
+<body>
+    <!----- Overlay to darken the background ----->
+    <div class="overlay-darken"></div>
+    <div class="mobile-darken-overlay-effect"></div>
+
+    <!----- SECTION 1st of three ----->
+    <section>
+        <header>
+            <!----- Navbar ----->
+
+            <nav class="main-nav">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <!----- Plug and Play logo ----->
+                            <img src="/static/images/plug and play.png" alt="">
+                            <ul>
+                                <li class="list-items-adjusted"><a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Write a Review</a></li>
+                                <li class="list-items-adjusted"><a href="#"><ion-icon name="person-circle"></ion-icon>log in</a></li>
+                                <li>
+                                    <button type="button" class="btn btn-outline-light">Sign up</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <nav class="mobile-nav">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="/static/images/plug and playBLACK.png" alt="">
+                            <div class="mobile-menu-box" onclick="expandOrCloseMobileNav()">
+                                <ion-icon name="ellipsis-vertical-sharp"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10 nav-box">
+                            <div class="nav-white-box">
+                                <ul>
+                                    <li><a href="#"><strong>Specialist</strong> or <strong>Practice</strong></a></li>
+                                    <hr>
+                                    <li><a href="#">In <strong>Location</strong></a></li>
+                                    <hr>
+                                    <li><a href="#">Via any <strong>insurer</strong></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+    </section>
+
+    <!----- SECTION 2nd of three ----->
+    <section>
+        <!----- MAIN feature ----->
+        <main>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="col-7 headline">
+                            <h1 class="display-4">
+                                Managing your health<br>has never been easier.
+                            </h1>
+                        </div>
+                    </div>
+                <div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="subheading-feature">
+                            <img src="/static/images/arrow-circle.png" alt="">
+                            <strong>Search</strong>, <strong>Compare</strong> and <strong>Book</strong> a healthcare specialist.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!----- SECTION 3rd of three ----->
+    <section>
+        <!----- FOOTER ----->
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="btn btn-primary btn-lg btn-block query-specialist">
+                            <p class=""><ion-icon name="search-outline"></ion-icon> Find a Specialist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!----- JavaScript links for ion-icons, Fontawesome icons, Materialize JS ----->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/2d7dd7d04b.js" crossorigin="anonymous"></script>
+    <script  src="/build/static/js/scripts.js"></script>
+</body>
+</html>
